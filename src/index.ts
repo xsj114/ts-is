@@ -46,7 +46,7 @@ export {
 }
 
 interface Is {
-    [key: string]: (arg: unknown, ...rest: unknown[]) => boolean 
+    [key: string]: (arg?: unknown, ...rest: unknown[]) => boolean 
 }
 
 const is: Is = {
