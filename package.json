@@ -1,9 +1,10 @@
 {
-  "name": "ts-is",
+  "name": "j-ts-is",
   "version": "1.0.0",
-  "description": "Do checking",
+  "description": "Do checking...",
   "main": "src/index.js",
   "scripts": {
+    "build": "tsc --declaration",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage"
