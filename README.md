@@ -36,5 +36,11 @@ npm i j-ts-is --save
 ## Usage
 
 ```
+import is from 'j-ts-is'
+is.array( [] );
+
+or
+
+const is = require('j-ts-is')
 is.array( [] );
 ```

@@ -21,29 +21,6 @@ import isWeakSet from './weak-set'
 import isWindow from './window'
 
 
-export {
-    isArguments,
-    isArray,
-    isAsyncFunction,
-    isBoolean,
-    isError,
-    isFormdata,
-    isFunction,
-    isIterable,
-    isMap,
-    isNull,
-    isNumber,
-    isObject,
-    isPromise,
-    isRegexp,
-    isSet,
-    isString,
-    isSymbol,
-    isUndefined,
-    isWeakMap,
-    isWeakSet,
-    isWindow
-}
 
 interface Is {
     [key: string]: (arg?: unknown, ...rest: unknown[]) => boolean 
@@ -74,3 +51,6 @@ const is: Is = {
 }
 
 export default is 
+
+module.exports = is
+module.exports.default = is
