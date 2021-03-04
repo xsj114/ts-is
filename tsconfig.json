@@ -4,7 +4,8 @@
         "outDir": "./dist",
         "noImplicitAny": true,
         "strict": true,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "module": "commonjs"
     },
     "include": ["src/**/*"],
     "exclude": ["test", "dist", "node_modules", "coverage"]
